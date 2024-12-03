@@ -1,0 +1,16 @@
+body{
+    font-family: Roboto, Arial;
+    background-color: #F7F0FA;
+    color: #4d4d4d;
+    margin: 0;
+    padding: 0;
+}
+p, h5, h4{
+    margin: 0;
+}
+
+body.dark-mode {
+    background-color: #4d4d4d;
+    color: #f7e6ff;
+}
+

@@ -1,0 +1,89 @@
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 170px;
+    
+}
+
+.paragraphs{
+    width: 530px;
+}
+
+.container h1{
+    display: inline;
+    padding-bottom: 6px;
+    border-bottom:2px solid #F5B942;
+    
+}
+
+.paragraphs h3{
+    margin-top: 36px;
+}
+.paragraphs span{
+    color:#F5B942 ;
+}
+.paragraphs p{
+    margin-bottom: 35px;
+}
+#par1{
+    margin-top: 34px;
+}
+
+#par2{
+    margin-top: 19px;
+    margin-bottom: 19px;
+}
+.paragraphs a{
+    text-decoration: none;
+    background-color: #F5B942;
+    color: #4d4d4d;
+    padding: 6px 11px;
+    margin-right: 16px;
+    border-radius: 20px;
+    font-weight: 600;
+}
+
+body.dark-mode .paragraphs a{
+    color: #f7e6ff;
+}
+
+.languages{
+    display: flex;
+    flex-direction: column;
+    
+}
+.things{
+    width: 500px;
+}
+
+.lang { 
+    display: flex; 
+    align-items: center;
+    margin: 20px 0;
+ } 
+.language-name {
+    flex: 1;
+    font-size:16px ;
+    font-weight: 470;
+ } 
+.progress { 
+    flex: 3; 
+    height: 8px; 
+    background-color: #dbdbdb; 
+    border-radius: 5px; 
+    margin: 0 10px; 
+    overflow: hidden;
+ } 
+.progress-bar { 
+    height: 100%; 
+    background-color: #F5B942; } 
+    
+.percentage { 
+    flex: 0.5; 
+    font-size: 14px; 
+    color: #979797;
+}
+
+body.dark-mode .percentage{
+    color: #f7e6ff;
+}

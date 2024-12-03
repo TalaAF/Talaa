@@ -1,0 +1,87 @@
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 170px;
+}
+
+.container h1{
+    display: inline;
+    padding-bottom: 6px;
+    border-bottom:2px solid #F5B942;
+    
+}
+.experience{
+    width: 520px;
+}
+.experience p{
+    color: #979797;
+    font-size: 14px;
+}
+
+body.dark-mode .experience p{
+    color:#f7e6ff;
+}
+.comp{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.comp h4{
+   margin-top: 20px;
+   margin-bottom: 7px;
+ 
+}
+.comp p{
+    color:#F5B942;
+}
+body.dark-mode .comp p{
+    color:#F5B942;
+}
+.experience h5{
+    color: #979797;
+    margin-bottom: 20px;
+    font-weight: 500;}
+
+body.dark-mode .experience h5{
+    color: #b09bb9;
+}
+.skill-main{
+    width: 500px;
+    display: flex;
+    
+    flex-direction: column;
+    
+}
+
+
+.skill { 
+    display: flex; 
+    align-items: center;
+    margin: 20px 0;
+ } 
+.skill-name {
+    flex: 1;
+    font-size:14px ;
+    font-weight: 460;
+ } 
+.progress { 
+    flex: 3; 
+    height: 8px; 
+    background-color: #dbdbdb; 
+    border-radius: 5px; 
+    margin: 0 10px; 
+    overflow: hidden;
+ } 
+.progress-bar { 
+    height: 100%; 
+    background-color: #F5B942; } 
+    
+.percentage { 
+    flex: 0.5; 
+    font-size: 14px; 
+    color: #979797;
+}
+
+body.dark-mode .percentage{
+    color: #f7e6ff;
+}
